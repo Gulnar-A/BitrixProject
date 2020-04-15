@@ -14,7 +14,7 @@ public class MainPageTest extends AbstractTestBase {
     @Test
     public void Comment() {
         loginPage.login();
-//code
+
         messagePage.Comment();
         messagePage.enterMessageFrame();
         messagePage.sendMessage("Hello");
